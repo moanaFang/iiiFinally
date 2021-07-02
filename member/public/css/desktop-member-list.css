@@ -1,0 +1,36 @@
+.order_list_moana {
+    width: 653px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+}
+.img_bg_square_moana {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+}
+.order_list_info_moana {
+    box-sizing: border-box;
+    width: 453px;
+    padding: 50px;
+}
+.order_item_moana {
+    width: 653px;
+    display: flex;
+}
+.order_title_moana {
+    text-align: left;
+}
+.order_list_items {
+    text-align: right;
+}
+.img_sm_square_moana {
+    width: 54px;
+    height: 54px;
+}
+.order_items_price_moana {
+    display: flex;
+    align-items: flex-end;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}

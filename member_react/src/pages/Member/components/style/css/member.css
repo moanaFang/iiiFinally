@@ -1,0 +1,235 @@
+/* -------------Style--------------- */
+h2 {
+    text-align: center;
+}
+
+a {
+    color: #383844;
+}
+
+.btn_pink_moana {
+    background-color: #FDD2BB;
+}
+
+.btn_white_moana  {
+    background-color: #FFFFFF;
+}
+
+svg {
+    fill: #707070;
+}
+/* -------------Component--------------- */
+
+/* -----------Button------------- */
+/* ---------Import----------- */
+.button_import_moana, .button_import_moana::before, .button_import_moana::after {
+    width: 429px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.button_import_moana {
+    border: 0;
+    color: #383844;
+    
+    position: relative;
+    z-index: 1;
+}
+
+.button_import_moana::before {
+    box-shadow: -2px -2px 4px 3px #FFFFFF;
+}
+
+.button_import_moana::after {
+    box-shadow: 4px 4px 10px 1px #5c5c5c;
+}
+
+.button_import_moana::before, .button_import_moana::after {
+    content: '';
+    display: block;
+
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    z-index: -1;
+}
+
+/* ---------Black----------- */
+.button_black_moana {
+    width: 313px;
+    height: 55px;
+    padding: 10px;
+    border: 0;
+    border-radius: 30px;
+    background-color: #383844;
+    color: #FFFFFF;
+  }
+
+/* -----------Input------------- */
+.input_field_moana {
+    height: 55px;
+    padding: 5px 30px;
+    border-radius: 10px; 
+}
+
+.inner-icons {
+    position: relative;
+}
+
+.inner-icons svg {
+    position: relative;
+    left: 50px;
+    bottom: 3px
+}
+
+input::placeholder { 
+    position: absolute;
+    transform: translateY(50%);
+    left: 70px;
+    background-image: url('');
+}
+
+.input_select_moana {
+    width: 170px;
+  }
+
+.input_radio_moana {
+width: 20px;
+height: 20px;
+margin-right: 5px;
+}
+
+.input_select_moana {
+margin-right: 15px;
+}
+
+.input_radio_group_moana {
+display: flex;
+justify-content: space-between;
+width: 200px;
+height: 55px;
+}
+
+
+/* -----------Other------------- */
+h2 ,input ,select ,button {
+margin-bottom: 25px;
+}
+
+
+/* -------------Layout--------------- */
+/* -----------All Layout------------- */
+body {
+background-color: #F7F7EE;
+}
+
+.layout_container_bg_moana {
+width: 1160px;
+display: flex;
+margin: 60px auto 60px auto;
+position: relative;
+}
+
+.login_col_moana, .regist_col_moana {
+    width: 50%;
+}
+
+.login_col_moana, .regist_col_moana, .member_pw_col_moana {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.layout_col_moana {
+height: calc(900px - 120px - (100px * 2));
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* -----------Login and Regist------------- */
+.login_col_moana, .regist_col_moana {
+    width: 581 px;
+    background-color: #FFFFFF;
+}
+
+.login_regist_links_moana {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ad_moana {
+    width: 50%;
+    height: calc(900px - 120px - (100px * 2));
+    background: #FDD2BB;
+
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+/* -----------Member-profile------------- */
+.member_admin_nav_moana {
+    width: 324px;
+    padding-top: 41px;
+    margin: 0 20px 0 0;
+    background-color: #FFFFFF;
+}
+.member_admin_data_moana {
+    width: 805px; 
+    background-color: #FFFFFF;
+}
+
+.upload_img {
+  display: flex;
+  align-items: flex-end;
+}
+
+.text_user_moana {
+  padding-left: 80px;
+}
+.username_moana {
+  text-decoration: underline;
+  text-decoration-thickness: 6px;
+  text-decoration-color: #FDD2BB;           
+}
+
+.form_title {
+  text-align: left;
+  padding: 50px 0 50px 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid;
+}
+
+.img_circle_moana {
+  border: 1px solid rgb(109, 108, 108);
+  border-radius: 50%;
+  margin: auto;
+}
+.img_sm_circle_moana {
+  width: 141px;
+  height: 141px;
+}
+.img_big_circle_moana {
+  width: 151px;
+  height: 151px;
+  margin-left: 0;
+}
+
+.member_admin_list_moana li {
+  padding: 20px 10px 20px 40px;
+}
+.member_admin_list_moana li > svg {
+  margin-right: 70px;
+}
+.member_form_moana {
+  width: 70%;
+  margin: auto;
+}
+.member_form_moana label {
+  display: flex;
+}
